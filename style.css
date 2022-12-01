@@ -3,9 +3,17 @@
 }
 body {
   margin: 0;
+  background-image: url(78809294.jpg);
+  background-size: 300%;
+  font-family: 'Alkalami', serif;
+font-family: 'Fredoka One', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Poppins', sans-serif;
+
 }
 .container {
-  max-width: 982px;
+  max-width: 987px;
   margin: 0 auto;
 }
 .row {
@@ -70,7 +78,7 @@ body {
   flex-shrink: 0;
 }
 .col-2 {
-  flex-basis: 16.66%;
+  flex-basis: 8.66%;
   flex-grow: 0;
   flex-shrink: 0;
 }
@@ -110,4 +118,29 @@ example-1{
 }
 .card.card-horizonal .card-image{
   width:30%
+}
+
+.card {
+  background-color: white;
+  border: 1px dashed rgb(228, 165, 154);
+  box-shadow: 6px 5px 10px 0 rgba(255, 99, 71, 0.603);
+  transform: rotate(1deg);
+  transition: all;
+
+  margin-bottom: 15px;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card .card-image {
+  width: 100%;
+}
+.card .card-content {
+  padding: 10px 15px;
+}
+.card.card-horizonal {
+  display: flex;
+}
+.card.card-horizonal .card-image {
+  width: 30%;
 }
