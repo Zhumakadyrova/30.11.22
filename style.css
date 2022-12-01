@@ -10,6 +10,7 @@ font-family: 'Fredoka One', cursive;
 font-family: 'Lato', sans-serif;
 font-family: 'Patrick Hand', cursive;
 font-family: 'Poppins', sans-serif;
+text-align: center;
 
 }
 .container {
@@ -117,15 +118,16 @@ example-1{
   display: flex;
 }
 .card.card-horizonal .card-image{
-  width:30%
+  width:20%
 }
 
 .card {
   background-color: white;
   border: 1px dashed rgb(228, 165, 154);
-  box-shadow: 6px 5px 10px 0 rgba(255, 99, 71, 0.603);
-  transform: rotate(1deg);
+  box-shadow: 10px 5px 10px 0 rgba(29, 37, 198, 0.603);
+  transform:matrix(5%);
   transition: all;
+  transition-duration: 8ms;
 
   margin-bottom: 15px;
 }
